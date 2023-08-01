@@ -48,7 +48,7 @@ class CombinatorialSequence<out T>(
      * The operation is _terminal_.
      */
     fun toMutableList(): MutableList<out T> = if (totalSize <= MAX_ARRAY_SIZE) {
-        toCollection(ArrayList(totalSize.intValueExact()))
+        toCollection(ArrayList(totalSize.toInt()))
     } else {
         toCollection(LinkedList())
     }
@@ -58,7 +58,7 @@ class CombinatorialSequence<out T>(
      */
     fun asStream(): Stream<out T> = if (totalSize <= Long.MAX_VALUE.toBigInteger()) {
         StreamSupport.stream(Spliterators.spliterator(
-                iterator(), totalSize.longValueExact(), Spliterator.ORDERED), false)
+                iterator(), totalSize.toLong(), Spliterator.ORDERED), false)
     } else {
         StreamSupport.stream(Spliterators.spliteratorUnknownSize(
                 iterator(), Spliterator.ORDERED), false)
