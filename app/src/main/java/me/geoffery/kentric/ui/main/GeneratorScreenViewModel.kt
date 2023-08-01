@@ -12,8 +12,8 @@ import androidx.work.NetworkType
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.OutOfQuotaPolicy
 import androidx.work.WorkManager
-import com.github.shiguruikai.combinatoricskt.CombinatorialSequence
-import com.github.shiguruikai.combinatoricskt.permutationsWithRepetition
+import me.geoffery.kentric.combinatoricskt.CombinatorialSequence
+import me.geoffery.kentric.combinatoricskt.permutationsWithRepetition
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import org.koin.core.component.KoinComponent

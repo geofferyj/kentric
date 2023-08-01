@@ -73,10 +73,6 @@ dependencies {
     // viewModel
     implementation(libs.viewmodel.compose)
 
-    // Combinatorics
-    implementation(libs.combinatoricskt)
-
-
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)

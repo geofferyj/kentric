@@ -8,7 +8,7 @@ import android.text.TextPaint
 import android.util.Log
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.github.shiguruikai.combinatoricskt.permutationsWithRepetition
+import me.geoffery.kentric.combinatoricskt.permutationsWithRepetition
 import me.geoffery.kentric.ui.main.MediaStoreUtils.scanPath
 import me.geoffery.kentric.ui.main.MediaStoreUtils.scanUri
 import org.koin.core.component.KoinComponent
