@@ -1,4 +1,4 @@
-package me.geoffery.kentric.ui.main
+package me.geoffery.kentric.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -27,13 +27,16 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ramcosta.composedestinations.annotation.Destination
+import com.ramcosta.composedestinations.annotation.RootNavGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import com.ramcosta.composedestinations.navigation.EmptyDestinationsNavigator
-import me.geoffery.kentric.ui.main.destinations.ResultsScreenDestination
+import me.geoffery.kentric.components.EntryItem
+import me.geoffery.kentric.ui.destinations.ResultsScreenDestination
 import me.geoffery.kentric.ui.theme.KentricTheme
 
 
-@Destination(start = true)
+@Destination
+@RootNavGraph(start = true)
 @Composable
 fun GeneratorScreen(
     viewModel: GeneratorScreenViewModel,

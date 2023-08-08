@@ -1,4 +1,4 @@
-package me.geoffery.kentric.ui.main
+package me.geoffery.kentric.di
 
 import android.app.Application
 import org.koin.android.ext.koin.androidContext

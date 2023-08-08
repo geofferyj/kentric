@@ -1,4 +1,4 @@
-package me.geoffery.kentric.ui.main
+package me.geoffery.kentric.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -15,6 +15,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.ramcosta.composedestinations.annotation.Destination
+import me.geoffery.kentric.utils.forEachIndexedCaped
 
 @Destination
 @Composable

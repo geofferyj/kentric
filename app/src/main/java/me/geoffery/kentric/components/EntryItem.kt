@@ -1,4 +1,4 @@
-package me.geoffery.kentric.ui.main
+package me.geoffery.kentric.components
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
@@ -17,6 +17,7 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.job
+import me.geoffery.kentric.ui.GeneratorScreenViewModel
 
 @Composable
 fun EntryItem(index: Int, viewModel: GeneratorScreenViewModel) {

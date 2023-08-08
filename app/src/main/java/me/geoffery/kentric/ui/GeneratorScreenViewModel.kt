@@ -1,4 +1,4 @@
-package me.geoffery.kentric.ui.main
+package me.geoffery.kentric.ui
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableIntStateOf
@@ -16,6 +16,7 @@ import me.geoffery.kentric.combinatoricskt.CombinatorialSequence
 import me.geoffery.kentric.combinatoricskt.permutationsWithRepetition
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import me.geoffery.kentric.utils.Worker
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 

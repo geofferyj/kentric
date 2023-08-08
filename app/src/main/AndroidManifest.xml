@@ -12,11 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kentric"
         tools:targetApi="31"
-        android:name=".ui.main.App"
+        android:name=".di.App"
 
         >
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize"
             android:theme="@style/Theme.Kentric">

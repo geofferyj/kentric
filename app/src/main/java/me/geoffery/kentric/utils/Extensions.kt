@@ -1,4 +1,4 @@
-package me.geoffery.kentric.ui.main
+package me.geoffery.kentric.utils
 
 inline fun <T> Sequence<T>.forEachIndexedCaped(cap:Int? = null, action: (index: Int, T) -> Unit): Unit {
     var index = 0

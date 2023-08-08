@@ -1,4 +1,4 @@
-package me.geoffery.kentric.ui.main
+package me.geoffery.kentric.utils
 
 import android.content.Context
 import android.graphics.pdf.PdfDocument
@@ -9,8 +9,9 @@ import android.util.Log
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import me.geoffery.kentric.combinatoricskt.permutationsWithRepetition
-import me.geoffery.kentric.ui.main.MediaStoreUtils.scanPath
-import me.geoffery.kentric.ui.main.MediaStoreUtils.scanUri
+import me.geoffery.kentric.ui.FileType
+import me.geoffery.kentric.utils.MediaStoreUtils.scanPath
+import me.geoffery.kentric.utils.MediaStoreUtils.scanUri
 import org.koin.core.component.KoinComponent
 import java.io.File
 import java.io.IOException

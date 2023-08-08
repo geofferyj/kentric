@@ -1,4 +1,4 @@
-package me.geoffery.kentric.ui.main
+package me.geoffery.kentric.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
